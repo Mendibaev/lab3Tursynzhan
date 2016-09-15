@@ -1,0 +1,16 @@
+# include <iostream>
+# include <cmath>
+using namespace std;
+int main ()
+{
+double a,b,c;
+cout<< "enter 3 numbers\n";
+cin>>a>>b>>c;
+
+	if (a<b && a<c)
+	{
+	    cout<<a; 
+	} 
+	else { if (b<c) {cout<<b;} else { cout<<c; };            };
+return 0;
+}
